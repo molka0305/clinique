@@ -56,11 +56,12 @@ function getLibelleUrgence(string $urgence): string
             echo "Urgence relative";
             break;
             
-        case "MAINTENANCE":
+        case "VERT":
             echo "Consultation standard";
             break;
             
         default:
+        
              echo   "Libelle non disponible";
              break;
             
