@@ -12,9 +12,9 @@ function CalculerFacture(int $a, float $t): float
 }
 
 
-function getBadgeService(string $code): array
+function getBadgeService(string $code_service): array
 {
-    switch ($categorie)
+    switch ($code_service)
     {
         case "CARDIO":
             return ["label"=>"Cardiologie",
@@ -44,9 +44,9 @@ function filtrerUrgences(array $patients): array
 
 }
 
-function getLibelleUrgence(string $libelle): string
+function getLibelleUrgence(string $urgence): string
 {
-    switch ($libelle)
+    switch ($urgence)
     {
         case "ROUGE":
             echo "Urgence absolue";
