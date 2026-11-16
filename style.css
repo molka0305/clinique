@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #24476b;
+}
+
+.patients {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-top: 5px solid #6b9ac4;
+}
+
+.card h2 {
+    color: #24476b;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.badge-card {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.badge-derma {
+    background-color: #fce7f3;
+    color: #9d174d;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.badge-ped {
+    background-color: #d1fae5;
+    color: #065f46;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.badge-inconnue {
+    background-color: #eee;
+    color: #333;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.URGENCEROUGE {
+    color: red;
+    font-weight: bold;
+}
+
+.URGENCEORANGE {
+    color: orange;
+    font-weight: bold;
+}
+
+.URGENCEVERT {
+    color: green;
+    font-weight: bold;
+}
+
+.resume {
+    background-color: white;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
