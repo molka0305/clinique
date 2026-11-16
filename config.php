@@ -1,0 +1,3 @@
+<?php
+const TARIF_BSE_CONSULTATION=50;
+?>
